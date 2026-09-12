@@ -1,0 +1,64 @@
+<!--set the font to ubuntu mono and set the background image to a gif of a black hole-->
+body {
+    font-family: "Ubuntu Mono", monospace;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/c5gNdBLnZBy3zvGiLWGixn.gif");
+    background-size: cover;
+    color: #ffffff;
+}
+<!--every main heading will be purple, have padding, and be centered-->
+h1 {
+    color: #5b0c80;
+    padding: 20px;
+    text-align: center;
+}
+
+.heading {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+<!--Font styles-->
+.ubuntu-mono-regular {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-mono-bold {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-mono-regular-italic {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-mono-bold-italic {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+<!--Flexbox styles-->
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: slategray;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+<!--wanted a box with no background color so you can see the background image behind it-->
+.box2 {
+    padding: 20px;
+    border-radius: 10px;
+}
