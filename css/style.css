@@ -1,4 +1,10 @@
 
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+
 body {
     font-family: "Ubuntu Mono", monospace;
     background-image: url("https://cdn.mos.cms.futurecdn.net/c5gNdBLnZBy3zvGiLWGixn.gif");
@@ -18,7 +24,7 @@ h1 {
     font-size: 2em;
 }
 
-<!--Font styles-->
+
 .ubuntu-mono-regular {
   font-family: "Ubuntu Mono", monospace;
   font-weight: 400;
@@ -61,4 +67,23 @@ h1 {
 .box2 {
     padding: 20px;
     border-radius: 10px;
+}
+
+
+.right-img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.left-img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
