@@ -62,41 +62,11 @@ h1 {
     height: 100vh;
 }
 
-.box {
-    background-color: slategray;
-    padding: 20px;
-    border-radius: 10px;
-
-}
-
-.box2 {
-    padding: 20px;
-    border-radius: 10px;
-}
-
-
-.right-img {
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-.left-img {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-.center-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-}
 
 .button {
     background-color: rgb(122, 135, 148);
     color: rgb(0, 0, 0);
-    padding: 10px 20px;
+    padding: 5px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
