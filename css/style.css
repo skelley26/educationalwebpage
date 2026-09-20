@@ -5,9 +5,14 @@
   }
 }
 
+img {
+    max-width: 20%;
+    height: auto;
+}
+
 body {
     font-family: "Ubuntu Mono", monospace;
-    background-image: url("https://cdn.mos.cms.futurecdn.net/c5gNdBLnZBy3zvGiLWGixn.gif");
+    background-image: url("https://assets.iflscience.com/assets/articleNo/53791/aImg/30084/1569495182-cover-image-o.webp");
     background-size: cover;
     color: #ffffff;
 }
@@ -86,4 +91,14 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+}
+
+.button {
+    background-color: rgb(122, 135, 148);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
 }

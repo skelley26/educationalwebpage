@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head> 
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/style.css" />
@@ -8,16 +8,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>Educational Web Page</title> <!--Title of the webpage -->
   </head> 
+  <main>
   <body> 
     <h1 class="heading">Why Black Holes are an Enigma</h1> <!--Main heading-->
     <div>
       <h2 class="heading">What makes them pitch black?</h2> <!--Subheading 1-->
         <p>First, we have to establish some background information. Think of space as a rubber sheet, which is flexible. When we put an iron ball on that sheet, it sinks. So now, we have an iron ball that has sunk the middle of the rubber; let's add another ball to the mix. Once that ball is added, it flies toward the first ball. Following so far?</p>
-        <a href="https://youtu.be/MTY1Kje0yLg?si=OMmnnq_z_9NRW_yf">Visual learner? This'll help.</a> <!--Link to a video explaining the concept-->
+        <a class="button" rel="preconnect" href="https://youtu.be/MTY1Kje0yLg?si=OMmnnq_z_9NRW_yf">Visual learner? This'll help.</a> <!--Link to a video explaining the concept-->
         
         <p>Here's what that analogy looks like in our solar system:</p> <!--showing the second source below-->
-        <img src="./images/gravitational pull.jpg" width="400" height="300" alt="A visual representation of the gravitational pull of the sun on the planets. The sun is in the middle, and Earth and Mars are orbiting around it. There's also a comet passing through at a curve.">
-
+        
+        <img src="./images/gravitational pull.png" rel="preload" fetchpriority="high" alt="A visual representation of the gravitational pull of the sun on the planets. The sun is in the middle, and Earth and Mars are orbiting around it. There's also a comet passing through at a curve.">
         
         <h3 class="heading">What’s important to know the limitations for this analogy:</h3>
         <ul> <!--Unordered list-->
@@ -30,7 +31,8 @@
       <p>Congrats, you now know a microscopic piece of general relativity.</p>
     </div>
     <div class="box">
-    <a href="page2.html">On to black holes</a> <!--Link to the next page--><a href="sources.html">Sources</a> <!--Link to the sources page-->
+    <a class="button" href="page2.html">On to black holes</a> <!--Link to the next page--><a class="button" href="sources.html">Sources</a> <!--Link to the sources page-->
     </div>
   </body> 
+  </main>
 </html>

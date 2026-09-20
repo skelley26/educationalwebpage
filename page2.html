@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./css/style.css" />
@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <title>Educational Web Page</title> <!--Title of the webpage-->
     </head>
+    <main>
     <body>
         <div> <!--div that contains descriptions of black holes-->
             <h1 class="heading">Black Holes</h1> <!--Main heading-->
@@ -17,7 +18,7 @@
             A black hole is so dense that there is nothing I could compare it to. A helpful view of this is below:
             </p>
             <!--Image showing the mass of different celestial objects-->
-            <img src="./images/Mass.png" alt="The mass of the sun, white dwarf, neutron star, and black hole. With the mass getting bigger in that order.">
+           <img src="./images/Mass.webp" rel="preload" fetchpriority="high" alt="The mass of the sun, white dwarf, neutron star, and black hole. With the mass getting bigger in that order.">
 
             <p>A black hole is so dense that it creates what we call an Event Horizon. Putting it technically, this is the area where the velocity to escape the black hole’s 
             pull is greater than lightspeed (which is the fastest anything can go). Anything that goes that deep into the black hole is doomed to stay. 
@@ -53,11 +54,12 @@
 
             </p>
         </div>
-
-        <img class="center-img" src="./images/4d time.jpg" width="600" height="500" alt="what the fourth dimension (spacetime) looks like. The left side of the image has a Yellow dot symbolizing the sun, and a ring around it with a blue dot symbolizing the earth. This is a flat image that has no dimension. On the right side of the image, there is a spring like structure with a line in the middle symbolizing the sun moving through spacetime, and us orbiting around it.">
+        <p>Our sun is constantly moving, and us with it:</p>
+        <img class="center-img" src="./images/orbit through time.jpg" width="600" height="500" rel="preload" fetchpriority="high" alt="what the fourth dimension (spacetime) looks like. The sun moves in a straight line while the other planets of the solar system orbit it.">
         
         <div class="box"> <!--made the link have a box around it-->
-        <a href="index.html">Back to the beginning</a> <a href="sources.html">Sources</a> 
+        <a class="button" href="index.html">Back to the beginning</a> <a class="button" href="sources.html">Sources</a> 
         </div>
     </body>
+    </main>
 </html>
